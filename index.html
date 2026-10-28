@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -641,6 +643,85 @@
       line-height: 1.7;
     }
 
+    /* ── Free Practice ── */
+    .free-practice {
+      padding: 5rem 2rem;
+      background: var(--cream);
+      text-align: center;
+    }
+
+    .free-practice-card {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 3rem 2rem;
+      background: white;
+      border: 1px solid var(--sand);
+    }
+
+    .free-practice h2 {
+      font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+      color: var(--forest);
+      margin-bottom: 1rem;
+    }
+
+    .free-practice p {
+      font-size: 1rem;
+      color: var(--text-medium);
+      font-weight: 300;
+      line-height: 1.8;
+      max-width: 480px;
+      margin: 0 auto 2rem;
+    }
+
+    .btn-forest {
+      display: inline-block;
+      background: var(--forest);
+      color: var(--cream);
+      padding: 1rem 2.5rem;
+      font-family: 'Raleway', sans-serif;
+      font-size: 0.8rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+
+    .btn-forest:hover {
+      background: var(--forest-deep);
+      transform: translateY(-1px);
+    }
+
+    button.btn-forest {
+      border: none;
+      cursor: pointer;
+    }
+
+    .practice-form {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      max-width: 380px;
+      margin: 0 auto;
+      position: relative;
+    }
+
+    .practice-form input[type="text"],
+    .practice-form input[type="email"] {
+      width: 100%;
+      padding: 0.9rem 1rem;
+      border: 1px solid var(--sand);
+      background: var(--cream);
+      font-family: 'Raleway', sans-serif;
+      font-size: 0.95rem;
+      color: var(--text-dark);
+    }
+
+    .practice-form input:focus {
+      outline: 2px solid var(--sage-light);
+      outline-offset: 1px;
+    }
+
     /* ── Final CTA ── */
     .final-cta {
       padding: 6rem 2rem;
@@ -769,7 +850,7 @@
       <p class="hero-eyebrow">Somatic Dating & Relationship Coaching</p>
       <h1>You can be confident and grounded in so many areas of life&mdash;and still feel <em>unsure</em> when it comes to love</h1>
       <p class="hero-sub">
-        I help women make confident decisions in dating and relationships by learning to trust their body's inner wisdom. Move from uncertainty to grounded clarity.
+        I help you make confident decisions in dating and relationships by learning to trust your body's inner wisdom. Move from uncertainty to grounded clarity.
       </p>
       <a href="https://calendly.com/annalisajackson/discoverycall" class="btn-primary" target="_blank">Book Your Free Discovery Call</a>
     </div>
@@ -793,13 +874,12 @@
   <!-- Aspirations -->
   <section class="aspirations">
     <div class="container">
-      <p class="section-eyebrow" style="color: var(--accent-gold);">What you're really longing for</p>
-      <h2>Imagine showing up in love this way</h2>
+      <h2>It's possible to show up in love this way</h2>
       <div class="divider divider-light"></div>
       <div class="aspiration-grid">
         <div class="aspiration-card">
           <h3>Grounded Trust</h3>
-          <p>You trust yourself deeply&mdash;not because you've figured everything out, but because you've learned to listen to your body's wisdom and let it guide you toward what's right for you.</p>
+          <p>You trust yourself deeply because you've learned to listen to your body's wisdom and let it guide you towards what's right for you.</p>
         </div>
         <div class="aspiration-card">
           <h3>Confident Voice</h3>
@@ -832,12 +912,12 @@
   <section class="program" id="program">
     <div class="program-wrapper">
       <p class="section-eyebrow">The offering</p>
-      <h2>Embodying Secure Attachment</h2>
-      <p class="program-subtitle">A 9-week women's coaching program for dating and relationships</p>
+      <h2>How to Embody Secure Attachment</h2>
+      <p class="program-subtitle">A 12 week women's coaching program focused on dating and relationships</p>
 
       <div class="program-card">
         <h3>A Community for Women Ready to Transform How They Show Up in Love</h3>
-        <p class="duration">A 9 Week Program Starting Sept. 24th, 2026</p>
+        <p class="duration">Starting January 2027</p>
         <p>
           This is a space where women who are done with the overthinking, the self-doubt, and the exhausting patterns come together to build embodied skills for showing up in love with confidence and clarity.
         </p>
@@ -873,6 +953,37 @@
         </div>
         <div class="cta-area">
           <a href="https://calendly.com/annalisajackson/discoverycall" class="btn-primary" target="_blank">Apply with a Free Discovery Call</a>
+        </div>
+      </div>
+
+      <p class="section-eyebrow" style="margin-top: 5rem;">The offering</p>
+      <h2>1:1 Somatic Coaching</h2>
+
+      <div class="program-card" style="margin-top: 2.5rem;">
+        <p>
+          This 3 month program is open to all, and is tailored to your dating and relationships challenges and goals. You'll build awareness of how your patterns show up in the body, and gain practices to help you show up differently in moments that have kept you the most stuck.
+        </p>
+        <p style="font-weight: 400; color: var(--forest); margin-bottom: 1.5rem;">What this includes:</p>
+        <div class="includes-grid">
+          <div class="includes-item">
+            <span class="check">&check;</span>
+            <span>A pathway designed to help you cultivate your grounded, self-trusting and authentic self, and bring that version of you into connection</span>
+          </div>
+          <div class="includes-item">
+            <span class="check">&check;</span>
+            <span>Practices to support you in setting boundaries, asking for what you need and finding clarity in your decisions</span>
+          </div>
+          <div class="includes-item">
+            <span class="check">&check;</span>
+            <span>10 sessions over 3 months</span>
+          </div>
+          <div class="includes-item">
+            <span class="check">&check;</span>
+            <span>Guided between session practices and journaling prompts</span>
+          </div>
+        </div>
+        <div class="cta-area">
+          <a href="https://calendly.com/annalisajackson/discoverycall" class="btn-primary" target="_blank">Book a Free Discovery Call</a>
         </div>
       </div>
     </div>
@@ -926,13 +1037,13 @@
           I'm a somatic dating and relationship coach committed to helping you build flourishing relationships. My work is all about helping you deeply know yourself and come to trust your body's intuition when it comes to love and connection. As an eldest daughter, and someone who grew up living between two very different cultural contexts, I got used to shape-shifting into whatever my environment needed me to be. These skills helped me excel in my job (I worked in peace building and conflict resolution for many years) but they also led to minimizing my needs which manifested as chronic stress and health issues. This forced me to take a closer look at what my own healing could really look like.
         </p>
         <p>
-          Discovering somatic coaching sent me on a journey of coming home to my own body, healing the parts that were disconnected and living into more boldness, courage and authenticity to be more of who I want to be. What started as a health journey, completely shifted how I showed up in my romantic relationships. I went from over-giving and quieting my intuition, to honoring my needs, trusting myself more confidently and saying "yes" to what truly felt aligned for me in love.
+          Discovering somatic coaching sent me on a journey of coming home to my own body, healing the parts that were disconnected and living into more boldness, courage and authenticity to be more of who I want to be. My journey with somatics completely shifted how I showed up in my romantic relationships. I went from over-giving and quieting my intuition, to honoring my needs, trusting myself more confidently and saying "yes" to what truly felt aligned for me in love.
         </p>
         <p>
-          Since completing my certification in Somatic Coaching, I've had the honor of walking alongside 350+ incredible humans on their path to more embodied confidence, connection to self and flourishing relationships. To me this work is also spiritual &mdash; it's about connecting to where we come from, to mystery, and to the depths of ourselves that are longing to be known. What I want for you is a tender relationship to your inner wisdom, a kindness to yourself, a clarity in what you stand for and a love that blows you away &mdash; starting with the one you have with yourself.
+          Since completing my certification in Somatic Coaching, I've had the honor of walking alongside 400 incredible humans on their path to more embodied confidence, connection to self and flourishing relationships. To me this work is also spiritual &mdash; it's about connecting to where we come from, to mystery, and to the depths of ourselves that are longing to be known. What I want for you is a tender relationship to your inner wisdom, a kindness to yourself, a clarity in what you stand for and a love that blows you away &mdash; starting with the one you have with yourself.
         </p>
         <p class="credentials">
-          Trained at the Strozzi Institute &middot; 350+ clients served &middot; Oakland, CA
+          Trained at the Strozzi Institute &middot; 400 clients served &middot; Oakland, CA
         </p>
       </div>
     </div>
@@ -943,6 +1054,12 @@
     <div class="container-wide">
       <h2>What clients are saying</h2>
       <div class="testimonial-grid">
+        <div class="testimonial-card">
+          <blockquote>
+            "Working with Annalisa was life-changing and I do not say that lightly. I was in a phase of feeling very stuck in my dating life for years which made me feel stagnated in general. Working with Annalisa connected me with my inner knowing, it was way more than about dating. I am reconnected with who I am as a human being and my path in life. Her loving and strong container helped me feel safe to discover real parts of me that I now have the tools to continue exploring myself! Sometimes I wish I found her sooner but I think everything comes at the right time :)"
+          </blockquote>
+          <p class="attribution">&mdash; A</p>
+        </div>
         <div class="testimonial-card">
           <blockquote>
             "I have worked with a handful of therapists/mental health coaches and Annalisa has been the most astounding by far. She excelled in creating a space that was non-judgmental and was a great empathetic listener, while also finding ways to challenge my ways of thinking in a kind and gentle way. It was easy for me to open up to her and every session I had with her felt insightful and left me feeling lighter. I definitely refer anyone interested to work with Annalisa!"
@@ -1034,12 +1151,31 @@
     </div>
   </section>
 
+  <!-- Free Practice (email signup) -->
+  <section class="free-practice" id="free-practice">
+    <div class="free-practice-card">
+      <p class="section-eyebrow">Free resource</p>
+      <h2>Download a free 5 minute practice here</h2>
+      <p>A short somatic practice you can use anytime to come back to your body and feel more grounded.</p>
+      <!-- Mailchimp signup form (posts to Collective Flourishing audience) -->
+      <form action="https://collectiveflourishing.us9.list-manage.com/subscribe/post?u=d8ed084c7f6bbbbce12020081&amp;id=26edf0f83c&amp;f_id=0004dbe3f0" method="post" name="mc-embedded-subscribe-form" class="practice-form" target="_blank">
+        <input type="text" name="FNAME" placeholder="First name" aria-label="First name" autocomplete="given-name">
+        <input type="email" name="EMAIL" placeholder="Email address" aria-label="Email address" required autocomplete="email">
+        <!-- Bot protection field: do not remove -->
+        <div aria-hidden="true" style="position: absolute; left: -5000px;">
+          <input type="text" name="b_d8ed084c7f6bbbbce12020081_26edf0f83c" tabindex="-1" value="">
+        </div>
+        <button type="submit" name="subscribe" class="btn-forest">Get the Free Practice</button>
+      </form>
+    </div>
+  </section>
+
   <!-- Final CTA -->
   <section class="final-cta">
     <div class="container">
       <h2>You don't have to figure this out alone</h2>
       <p>
-        There's a community of women ready to grow alongside you. Book a free discovery call to explore whether this is your next step.
+        Book a free discovery call to explore whether this is your next step.
       </p>
       <a href="https://calendly.com/annalisajackson/discoverycall" class="btn-primary" target="_blank">Book Your Free Discovery Call</a>
     </div>
